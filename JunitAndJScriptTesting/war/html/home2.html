@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta charset="ISO-8859-1">
+<title>Note Making</title>
+<meta name="viewport"
+	content="width = device-width, initial-scale = 1.0">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+	integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	crossorigin="anonymous">
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
+</head>
+<style>
+#myDIV {
+	height: 250px;
+	width: 250px;
+	overflow: auto;
+	background-color: black;
+}
+
+#content {
+	height: 800px;
+	width: 2000px;
+	background-color: lightgrey;
+}
+</style>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<a href="#" class="navbar-brand text-center">Note Making</a>
+		</div>
+	</nav>
+
+	<div class="container">
+		<br> <br>
+		<table>
+			<tr>
+				<td>bgChange:</td>
+				<td><input type="color" name="bgcolor" id="color1"
+					onchange="add();"></td>
+			</tr>
+			<br>
+			<tr>
+				<td>fontColor:</td>
+				<td><input type="color" name="fontcolor" id="fontcolor1"
+					onchange="fontcolor();"></td>
+			</tr>
+		</table>
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-5">
+				<div class="customDiv2">
+					<form action="MessageServlet" method="get">
+						<input type="text" name="label" id="labelId"> <label>Enter
+							Your message:</label>
+						<textarea rows="18" class="form-control" name="message"
+							id="labelvalue"></textarea>
+						<input type="reset" value="reset" /> <input type="submit"
+							value="save" />
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-5">
+				<input type="text" name="search" id="searchId"> <input
+					type="button" value="searching" /><br>
+				<div id="myDIV">
+					<!-- onclick ="myFunction()" -->
+					<div id="content">first one</div>
+				</div>
+				<script>
+					function myFunction() {
+						var mainVal = document.getElementById("content").innerHTML;
+						var btn = document.createElement("BUTTON");
+						var n = document.getElementById("labelId").value;
+						var t = document.createTextNode(n);
+						btn.appendChild(t);
+						document.body.appendChild(btn);
+						btn = mainVal + "<br>" + btn + "<br>";
+						document.getElementById("content").innerHTML = btn;
+
+					}
+				</script>
+
+			</div>
+			<p id="demo"></p>
+			<br> <br> <input type="button" value="updolading" /> <input
+				type="button" value="delete" /> <input type="button"
+				value="download" />
+		</div>
+	</div>
+	<div class="customDiv4">
+		<a href="index.html"><button class="btn btn-link pull-right"
+				type="submit">
+				Logout <span class="glyphicon glyphicon-share"></span>
+			</button></a>
+	</div>
+
+
+</body>
+</html>

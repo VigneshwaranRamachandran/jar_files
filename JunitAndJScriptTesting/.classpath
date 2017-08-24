@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/javax.servlet.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/vicky/jar/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/.p2/pool/plugins/com.google.appengine.eclipse.sdkbundle_1.9.34/appengine-java-sdk-1.9.34/lib/opt/user/appengine-endpoints/v1/appengine-endpoints.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/User/.p2/pool/plugins/com.google.appengine.eclipse.sdkbundle_1.9.34/appengine-java-sdk-1.9.34/docs/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/vicky/jar/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/junit-4.12-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/junit-4.12-sources.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/spdf_2.9.2-0.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/.p2/pool/plugins/com.google.appengine.eclipse.sdkbundle_1.9.34/appengine-java-sdk-1.9.34/lib/shared/jsp/repackaged-appengine-ant-1.7.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/User/.p2/pool/plugins/com.google.appengine.eclipse.sdkbundle_1.9.34/appengine-java-sdk-1.9.34/docs/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/User/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://junit-team.github.io/junit/javadoc/latest/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-tools-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-api-stubs.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-agent.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-agentimpl.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-api-labs-1.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-api-stubs-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/vicky/jar/appengine-testing-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VIGN/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="unirest-java-1.4.9.jar"/>
+			<attribute name="maven.groupId" value="com.mashape.unirest"/>
+			<attribute name="maven.artifactId" value="unirest-java"/>
+			<attribute name="maven.version" value="1.4.9"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/VIGN/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="javax.ws.rs-api-2.0.1.jar"/>
+			<attribute name="maven.groupId" value="javax.ws.rs"/>
+			<attribute name="maven.artifactId" value="javax.ws.rs-api"/>
+			<attribute name="maven.version" value="2.0.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
